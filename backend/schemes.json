@@ -1,0 +1,17 @@
+[
+{
+"name": "PM-Kisan Samman Nidhi",
+"eligibility": "farmer",
+"benefit": "₹6000 per year income support"
+},
+{
+"name": "Ayushman Bharat",
+"eligibility": "health",
+"benefit": "Free health insurance up to ₹5 lakh"
+},
+{
+"name": "National Scholarship Portal",
+"eligibility": "student",
+"benefit": "Scholarship for students"
+}
+]

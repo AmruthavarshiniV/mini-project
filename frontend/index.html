@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Government Scheme Assistant</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>AI Government Scheme Assistant</h1>
+
+    <!-- SEARCH SECTION -->
+    <div class="search-section">
+        <input type="text" id="searchInput" placeholder="Search schemes (Farmer, Student, Loan)">
+        <button onclick="searchSchemes()">Search</button>
+    </div>
+
+    <div id="searchResults" class="results"></div>
+
+    <!-- CHAT BUTTON -->
+    <button class="chat-toggle-btn" onclick="toggleChat()">💬 Chat with AI</button>
+
+    <!-- CHAT SECTION (Hidden Initially) -->
+    <div class="chat-section" id="chatSection">
+        <h2>Chat with AI Assistant</h2>
+        <div id="chatBox"></div>
+        <input type="text" id="chatInput" placeholder="Example: I am farmer income 150000">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+</div>
+
+<script src="js/search.js"></script>
+<script src="js/chat.js"></script>
+</body>
+</html>
